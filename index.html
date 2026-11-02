@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesri Harvests | Pure Farm-Fresh Jaggery</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --jaggery-gold: #b45309;
+            --accent: #d97706;
+            --bg: #fdfbf7;
+            --text: #1f2937;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+        .logo-container {
+            margin-bottom: 1rem;
+        }
+        .logo-container img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #fef3c7;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.025em;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            opacity: 0.95;
+            color: #fef3c7;
+        }
+        main {
+            max-width: 650px;
+            margin: 2.5rem auto;
+            padding: 2.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .badge-grid {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .badge {
+            flex: 1;
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            padding: 0.85rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .badge h4 {
+            margin: 0 0 0.25rem 0;
+            color: var(--primary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: #166534;
+            font-weight: 600;
+        }
+        .highlight-box {
+            background-color: #fffbeb;
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.25rem;
+            margin-bottom: 2rem;
+            border-radius: 0 8px 8px 0;
+        }
+        .highlight-box h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--jaggery-gold);
+        }
+        .highlight-box p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+            font-size: 1.75rem;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #374151;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1rem;
+            background-color: #fff;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.1);
+        }
+        button {
+            background-color: var(--jaggery-gold);
+            color: white;
+            border: none;
+            padding: 0.85rem 1.5rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #92400e;
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- Ensure your logo file is saved as logo.jpg in your project folder -->
+            <img src="logo.jpg" alt="Kesri Harvests Logo">
+        </div>
+        <h1>Kesri Harvests</h1>
+        <p>Fuel Your Day, Naturally. Pure, Unadulterated Jaggery Direct from the Source.</p>
+    </header>
+
+    <main>
+        <div class="badge-grid">
+            <div class="badge">
+                <h4>Purity Pledge</h4>
+                <p>0% Chemicals or Additives</p>
+            </div>
+            <div class="badge">
+                <h4>Farming Method</h4>
+                <p>Zero Herbicides & Pesticides</p>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <h3>Featured Launch: Artisanal Jaggery Line</h3>
+            <p>Grown in rich soil without chemical inputs and crafted traditionally. Experience high mineral retention and pure uncompromised sweetness.</p>
+        </div>
+
+        <h2>Secure Your Pre-Order Batch</h2>
+        <p>We are currently packing our fresh harvest batches. Register your interest below for priority access, wholesale inquiries, or direct consumer delivery.</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name / Business Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name or store name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number (WhatsApp)</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your mobile number">
+            </div>
+            <div class="form-group">
+                <label for="product-interest">Select Primary Interest</label>
+                <select id="product-interest" name="product-interest">
+                    <option value="jaggery-blocks">Traditional Jaggery Blocks (Gur)</option>
+                    <option value="jaggery-powder">Jaggery Powder / Granules</option>
+                    <option value="wholesale">Wholesale / Bulk Inquiry (Retailers)</option>
+                    <option value="mixed-batch">Mixed Harvest Batch</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Quantity & Delivery Requirements</label>
+                <textarea id="message" name="message" rows="3" placeholder="Tell us how much you're looking for..."></textarea>
+            </div>
+            <button type="submit">Join Jaggery Launch Waitlist</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kesri Harvests. Fuel Your Day, Naturally.</p>
+    </footer>
+
+</body>
+</html>
